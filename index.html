@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <title>Landing Page</title>
+  </head>
+  <body>
+    <!-- prettier-ignore -->
+    <div id="wrapper">
+      <header id="header">
+        <img id="header-img" src="https://cdn.pixabay.com/photo/2020/05/21/05/29/network-5199241_960_720.png" alt="logo"/>
+        <nav id="nav-bar">
+          <ul>
+            <li>
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li>
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container">
+        <section id="home">
+                <h1>Welcome to the future</h1>
+                <p>Genesis is a brand new way to...</p>
+                <iframe id="video" width="420" height="315"
+    src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+        </section>
+        <section id="features">
+          <div class="grid">
+            <div class="icon"><i class="fas fa-desktop"></i></div>
+            <div class="desc">
+              <h2>Feature 1</h2>
+              <p>ABC</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fas fa-download"></i></div>
+            <div class="desc">
+              <h2>Feature 2</h2>
+              <p>CDE</p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fas fa-mobile-alt"></i></div>
+            <div class="desc">
+              <h2>Feature 3</h2>
+              <p>FGH</p>
+            </div>
+          </div>
+        </section>
+        <section id="pricing">
+          <div class="product">
+            <div class="level">Product 1</div>
+            <h2>$100</h2>
+            <ol>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+            </ol>
+          </div>
+          <div class="product">
+            <div class="level">Product 2</div>
+            <h2>$200</h2>
+            <ol>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+            </ol>
+          </div>
+          <div class="product">
+            <div class="level">Product 3</div>
+            <h2>$300</h2>
+            <ol>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+              <li>lorem ipsum</li>
+            </ol>
+          </div>
+        </section>
+        <section id="contact">
+          <div id="form-container">
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+              <label>Add you email to recieve latest news</label>
+              <input type="email" id="email" placeholder="Enter you email" name="email" requested />
+              <input type="submit" id="submit" value="Subscribe" class="btn" />
+            </form>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <ol>
+          <li>
+            <a href="#">Privacy</a>
+          </li>
+          <li>
+            <a href="#">Terms</a>
+          </li>
+        </ol>
+      </footer>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
