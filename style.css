@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: whitesmoke;
   font-size: 1rem;
@@ -29,10 +33,12 @@ header {
   align-items: center;
   width: 100%;
   background-color: white;
+  font-size: 1.5rem;
 }
 
 #header-img {
   height: 100%;
+  padding-left: 100px;
 }
 
 nav > ul {
@@ -54,6 +60,15 @@ nav > ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: 2rem;
+}
+
+#home h1 p {
+  margin-bottom: 10px;
+}
+
+#video {
+  margin-top: 10px;
 }
 
 #features {
@@ -64,6 +79,29 @@ nav > ul {
   justify-content: center;
 }
 
+.grid {
+  display: flex;
+}
+
+#features .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  height: 125px;
+  width: 80vw;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
 #pricing {
   height: 100vh;
   width: 100%;
@@ -71,6 +109,7 @@ nav > ul {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  font-size: 1.5rem;
 }
 
 .product {
@@ -82,6 +121,38 @@ nav > ul {
   margin: 10px;
   border: 1px solid #000;
   border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.product .level {
+  background-color: #ddd;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+
+  font-weight: 500;
+}
+
+.product > ol > li {
+  padding: 5px 0;
+}
+
+.product > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
 }
 
 #contact {
